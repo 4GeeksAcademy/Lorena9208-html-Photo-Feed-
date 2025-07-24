@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary m-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i class="fa-brands fa-instagram"></i>
+        Instagram
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          data-bs-whatever="@mdo">Create a new post</button>
+        <div class="btn-group">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button class="dropdown-item" type="button">Profile</button></li>
+            <li><button class="dropdown-item" type="button">Accesibility</button></li>
+            <li><button class="dropdown-item" type="button">Privacy and Data</button></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+        role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells""></i></button>
+  </li>
+  <li class=" nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+            type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i
+              class="fa-solid fa-square"></i></button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+      <div class="row m-1">
+        <div class="col-sm-6 col-md-4 col-lg-4 p-1">
+          <img class="img-fluid"
+            src="https://cdn.sanity.io/images/5vm5yn1d/pro/5cb1f9400891d9da5a4926d7814bd1b89127ecba-1300x867.jpg?fm=webp&q=80"
+            alt="dog" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 p-1">
+          <img class="img-fluid"
+            src="https://media.istockphoto.com/id/1371940128/es/foto/amigos-multirraciales-tomando-selfies-de-grupos-grandes-sonriendo-a-la-c%C3%A1mara-j%C3%B3venes-que-se.jpg?s=612x612&w=0&k=20&c=a3RfD8AnfDIG-4mChU3DexLa_spWt4jzQMHUj8CGBtc="
+            alt="friends" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 p-1">
+          <img class="img-fluid"
+            src="https://caracol.com.co/resizer/v2/SRTAL4WIDFD4DKJYII4EBHXVOU.jpg?auth=db63034913cce6d7d28f9a4913a6ac01a875fb3c7ed27d3d43843b58bafef67a&width=650&quality=70&smart=true"
+            alt="city" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 p-1">
+          <img class="img-fluid"
+            src="https://plus.unsplash.com/premium_photo-1661724295894-9f4323058501?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+            alt="girl" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 p-1">
+          <img class="img-fluid"
+            src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/03/30/16801663970469.jpg" alt="tower" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 p-1">
+          <img class="img-fluid"
+            src="https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/4d4fc09a-df82-42c5-a30e-bc532adb6729.jpeg"
+            alt="player" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 p-1">
+          <img class="img-fluid" src="https://www.triptomax.com/wp-content/uploads/2018/05/shutterstock_193994486.jpg"
+            alt="family" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 p-1">
+          <img class="img-fluid" src="https://www.freejpg.com.ar/asset/900/5a/5a70/F100011964.jpg" alt="code" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 p-1">
+          <img class="img-fluid"
+            src="https://plus.unsplash.com/premium_photo-1714340369551-32d8302365bd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDU4fHx8ZW58MHx8fHx8"
+            alt="class" />
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="post border border-secondary-subtle rounded col-sm-6 col-md-4 col-lg-4 mx-auto m-4">
+          <div class="post-header d-flex justify-content-between align-items-center">
+            <h4 class="m-1">My Crazy dog Spark!</h4>
+            <span class=" p-1">08/26</span>
+          </div>
+          <div class="post-body ">
+            <img class="img-fluid mx-auto m-2"
+              src="https://media.istockphoto.com/id/615600530/es/foto/labrador-retriever-rubio-mirando-la-sala-de-c%C3%A1maras-para-copiar.jpg?s=612x612&w=0&k=20&c=H01GC5E7qRmu4tJGmdNyER6Zx8E3p198tSIm-4rpGEI="
+              alt="" />
+          </div>
+          <div class="post-footer text-body-secondary">
+            <p class="m-1"><strong>204 likes</p></strong>
+            <p class="m-1">This is an example of a very good photo that you can post on Instagram</p>
+          </div>
+        </div>
+        <div class="post border border-secondary-subtle rounded col-sm-6 col-md-4 col-lg-4 mx-auto m-4">
+          <div class="post-header d-flex justify-content-between align-items-center">
+            <h4 class="m-1">The greatness of Croatia</h4>
+            <span class=" p-1">04/09</span>
+          </div>
+          <div class="post-body ">
+            <img class="img-fluid mx-auto m-2"
+              src="https://caracol.com.co/resizer/v2/SRTAL4WIDFD4DKJYII4EBHXVOU.jpg?auth=db63034913cce6d7d28f9a4913a6ac01a875fb3c7ed27d3d43843b58bafef67a&width=650&quality=70&smart=true"
+              alt="" />
+          </div>
+          <div class="post-footer text-body-secondary">
+            <p class="m-1"><strong>26958 likes</p></strong>
+            <p class="m-1">This is an example of a very good photo that you can post on Instagram</p>
+          </div>
+        </div>
+        <div class="post border border-secondary-subtle rounded col-sm-6 col-md-4 col-lg-4 mx-auto m-4">
+          <div class="post-header d-flex justify-content-between align-items-center">
+            <h4 class="m-1">Amazing GOAL by Cristiano!</h4>
+            <span class=" p-1">06/10</span>
+          </div>
+          <div class="post-body ">
+            <img class="img-fluid mx-auto m-2"
+              src="https://imagenes.elpais.com/resizer/v2/T4W6LUP6DVMWTE2DIWE466OM4A.jpg?auth=9b123e0508bff3cf799d243a76439a597c53513f3159593950044aff38697354&width=1200"
+              alt="">
+          </div>
+          <div class="post-footer text-body-secondary">
+            <p class="m-1"><strong>204 likes</p></strong>
+            <p class="m-1">This is an example of a very good photo that you can post on Instagram</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 " id="exampleModalLabel ">Create a new post</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Caption:</label>
+                <textarea class="form-control" placeholder="Add the caption of your post here"
+                  id="message-text"></textarea>
+                <button type="button" class="btn btn-light mx-auto m-2"><i class="fa-solid fa-camera"></i></button>
+                <button type="button" class="btn btn-light mx-auto m-2"><i
+                    class="fa-solid fa-location-dot"></i></button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Publish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
